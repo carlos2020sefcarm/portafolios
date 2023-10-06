@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>CALCULO DE DINERO</h1>
+    <form action="descuento.php" method="get">
+        <label for="cantidad">Introduce Cantidad</label>
+        <input type="number" id="cantidad" step="1" name="cantidad" placeholder="2" min="1"><span>Productos</span>
+        <br>
+        <label for="precio">Introduce Precio de una sola unidad</label>
+        <input type="number" id="precio" step="0.01" name="dinero" placeholder="20.40"><span>Euros</span>
+        <input type="submit" value="calcular">
+        <br>
+        <label for="descuento">Introduce Descuento</label>
+        <input type="number" id="descuento" step="1" name="descuento" placeholder="25"><span>%</span>
+        <label>IVA</label>
+        <select id="IVA" name="IVA">
+            <option value=0>sin IVA</option>
+            <option value=4>IVA superreducido</option>
+            <option value=10>IVA reducido</option>
+            <option value=21>IVA general</option>
+        </select>    
+
+</body>
+</html>
