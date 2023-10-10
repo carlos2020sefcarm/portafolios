@@ -35,7 +35,9 @@ class Calcular{
         return $this->valor2;
     }
 
-   
+    
+      
+
 }
 
 ?>
