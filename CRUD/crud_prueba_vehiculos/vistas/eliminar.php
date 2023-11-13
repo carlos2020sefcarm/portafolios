@@ -8,16 +8,9 @@
 </head>
 <body>
     
-    <form>
+    <form action="<?php $_SERVER["php_self"] ?>" method="post">
         <label>id</label><br><br>
         <input type="number"><br><br>
-        <label>marca</label><br><br>
-        <input type="text"><br><br>
-        <label>modelo</label><br><br>
-        <input type="text"><br><br>
-        <label>año</label><br><br>
-        <input type="number" step="1" min="1900"><br><br>
-        <input type="submit"><br><br>
     </form>
 
 

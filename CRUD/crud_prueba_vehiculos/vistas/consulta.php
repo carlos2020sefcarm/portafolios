@@ -10,17 +10,20 @@
 <table>
   <theader>
       <tr>
+          <th>id</th>
           <th>marca</th>
           <th>modelo</th>
           <th>color</th>
           <th>año</th>
+          <th>actualizar</th>
+          <th>eliminar</th>
       </tr>
   </theader>
   <tbody>
   <?php 
-    require_once "controladores/Con_consulta.php";
-     $con_consulta1 = new Con_consulta();
-     $con_consulta1->seleccionar();
+    require_once "controladores/Controladorcomun.php";
+     $con_controladorcomun1 = new Controladorcomun();
+     $con_controladorcomun1->seleccionar();
      
 ?>
   </tbody>    
